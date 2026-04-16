@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: qk-management
+    version: 1.0.1
+#\u6570\u636E\u5E93\u8FDE\u63A5\u4FE1\u606F
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/qk
+    username: root
+    password: 3624
+#mybatis\u914D\u7F6E
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
